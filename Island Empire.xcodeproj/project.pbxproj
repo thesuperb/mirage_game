@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A31C592B37007569EC /* AppDelegate.swift */; };
+		54DD18A61C592B37007569EC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18A51C592B37007569EC /* GameScene.sks */; };
+		54DD18A81C592B37007569EC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A71C592B37007569EC /* GameScene.swift */; };
+		54DD18AA1C592B37007569EC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A91C592B37007569EC /* GameViewController.swift */; };
+		54DD18AD1C592B37007569EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18AB1C592B37007569EC /* Main.storyboard */; };
+		54DD18AF1C592B37007569EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18AE1C592B37007569EC /* Assets.xcassets */; };
+		54DD18B21C592B37007569EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18B01C592B37007569EC /* LaunchScreen.storyboard */; };
+		54DD18BD1C592B37007569EC /* Island_EmpireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18BC1C592B37007569EC /* Island_EmpireTests.swift */; };
+		54DD18C81C592B37007569EC /* Island_EmpireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18C71C592B37007569EC /* Island_EmpireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54DD18B91C592B37007569EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54DD18981C592B37007569EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DD189F1C592B37007569EC;
+			remoteInfo = "Island Empire";
+		};
+		54DD18C41C592B37007569EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54DD18981C592B37007569EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DD189F1C592B37007569EC;
+			remoteInfo = "Island Empire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54DD18A01C592B37007569EC /* Island Empire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Empire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DD18A31C592B37007569EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54DD18A51C592B37007569EC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		54DD18A71C592B37007569EC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		54DD18A91C592B37007569EC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		54DD18AC1C592B37007569EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54DD18AE1C592B37007569EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54DD18B11C592B37007569EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54DD18B31C592B37007569EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DD18B81C592B37007569EC /* Island EmpireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island EmpireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DD18BC1C592B37007569EC /* Island_EmpireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_EmpireTests.swift; sourceTree = "<group>"; };
+		54DD18BE1C592B37007569EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DD18C31C592B37007569EC /* Island EmpireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island EmpireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DD18C71C592B37007569EC /* Island_EmpireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_EmpireUITests.swift; sourceTree = "<group>"; };
+		54DD18C91C592B37007569EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54DD189D1C592B37007569EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DD18B51C592B37007569EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DD18C01C592B37007569EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54DD18971C592B37007569EC = {
+			isa = PBXGroup;
+			children = (
+				54DD18A21C592B37007569EC /* Island Empire */,
+				54DD18BB1C592B37007569EC /* Island EmpireTests */,
+				54DD18C61C592B37007569EC /* Island EmpireUITests */,
+				54DD18A11C592B37007569EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54DD18A11C592B37007569EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54DD18A01C592B37007569EC /* Island Empire.app */,
+				54DD18B81C592B37007569EC /* Island EmpireTests.xctest */,
+				54DD18C31C592B37007569EC /* Island EmpireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54DD18A21C592B37007569EC /* Island Empire */ = {
+			isa = PBXGroup;
+			children = (
+				54DD18A31C592B37007569EC /* AppDelegate.swift */,
+				54DD18A51C592B37007569EC /* GameScene.sks */,
+				54DD18A71C592B37007569EC /* GameScene.swift */,
+				54DD18A91C592B37007569EC /* GameViewController.swift */,
+				54DD18AB1C592B37007569EC /* Main.storyboard */,
+				54DD18AE1C592B37007569EC /* Assets.xcassets */,
+				54DD18B01C592B37007569EC /* LaunchScreen.storyboard */,
+				54DD18B31C592B37007569EC /* Info.plist */,
+			);
+			path = "Island Empire";
+			sourceTree = "<group>";
+		};
+		54DD18BB1C592B37007569EC /* Island EmpireTests */ = {
+			isa = PBXGroup;
+			children = (
+				54DD18BC1C592B37007569EC /* Island_EmpireTests.swift */,
+				54DD18BE1C592B37007569EC /* Info.plist */,
+			);
+			path = "Island EmpireTests";
+			sourceTree = "<group>";
+		};
+		54DD18C61C592B37007569EC /* Island EmpireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54DD18C71C592B37007569EC /* Island_EmpireUITests.swift */,
+				54DD18C91C592B37007569EC /* Info.plist */,
+			);
+			path = "Island EmpireUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54DD189F1C592B37007569EC /* Island Empire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DD18CC1C592B37007569EC /* Build configuration list for PBXNativeTarget "Island Empire" */;
+			buildPhases = (
+				54DD189C1C592B37007569EC /* Sources */,
+				54DD189D1C592B37007569EC /* Frameworks */,
+				54DD189E1C592B37007569EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Island Empire";
+			productName = "Island Empire";
+			productReference = 54DD18A01C592B37007569EC /* Island Empire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54DD18B71C592B37007569EC /* Island EmpireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DD18CF1C592B37007569EC /* Build configuration list for PBXNativeTarget "Island EmpireTests" */;
+			buildPhases = (
+				54DD18B41C592B37007569EC /* Sources */,
+				54DD18B51C592B37007569EC /* Frameworks */,
+				54DD18B61C592B37007569EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54DD18BA1C592B37007569EC /* PBXTargetDependency */,
+			);
+			name = "Island EmpireTests";
+			productName = "Island EmpireTests";
+			productReference = 54DD18B81C592B37007569EC /* Island EmpireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54DD18C21C592B37007569EC /* Island EmpireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DD18D21C592B37007569EC /* Build configuration list for PBXNativeTarget "Island EmpireUITests" */;
+			buildPhases = (
+				54DD18BF1C592B37007569EC /* Sources */,
+				54DD18C01C592B37007569EC /* Frameworks */,
+				54DD18C11C592B37007569EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54DD18C51C592B37007569EC /* PBXTargetDependency */,
+			);
+			name = "Island EmpireUITests";
+			productName = "Island EmpireUITests";
+			productReference = 54DD18C31C592B37007569EC /* Island EmpireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54DD18981C592B37007569EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = theSuperb;
+				TargetAttributes = {
+					54DD189F1C592B37007569EC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AJ3HRKBPVW;
+					};
+					54DD18B71C592B37007569EC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AJ3HRKBPVW;
+						TestTargetID = 54DD189F1C592B37007569EC;
+					};
+					54DD18C21C592B37007569EC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AJ3HRKBPVW;
+						TestTargetID = 54DD189F1C592B37007569EC;
+					};
+				};
+			};
+			buildConfigurationList = 54DD189B1C592B37007569EC /* Build configuration list for PBXProject "Island Empire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54DD18971C592B37007569EC;
+			productRefGroup = 54DD18A11C592B37007569EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54DD189F1C592B37007569EC /* Island Empire */,
+				54DD18B71C592B37007569EC /* Island EmpireTests */,
+				54DD18C21C592B37007569EC /* Island EmpireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54DD189E1C592B37007569EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DD18A61C592B37007569EC /* GameScene.sks in Resources */,
+				54DD18B21C592B37007569EC /* LaunchScreen.storyboard in Resources */,
+				54DD18AF1C592B37007569EC /* Assets.xcassets in Resources */,
+				54DD18AD1C592B37007569EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DD18B61C592B37007569EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DD18C11C592B37007569EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54DD189C1C592B37007569EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DD18A81C592B37007569EC /* GameScene.swift in Sources */,
+				54DD18AA1C592B37007569EC /* GameViewController.swift in Sources */,
+				54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DD18B41C592B37007569EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DD18BD1C592B37007569EC /* Island_EmpireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DD18BF1C592B37007569EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DD18C81C592B37007569EC /* Island_EmpireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54DD18BA1C592B37007569EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DD189F1C592B37007569EC /* Island Empire */;
+			targetProxy = 54DD18B91C592B37007569EC /* PBXContainerItemProxy */;
+		};
+		54DD18C51C592B37007569EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DD189F1C592B37007569EC /* Island Empire */;
+			targetProxy = 54DD18C41C592B37007569EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54DD18AB1C592B37007569EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DD18AC1C592B37007569EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54DD18B01C592B37007569EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DD18B11C592B37007569EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54DD18CA1C592B37007569EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54DD18CB1C592B37007569EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54DD18CD1C592B37007569EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Island Empire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-superb.Island-Empire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54DD18CE1C592B37007569EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Island Empire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-superb.Island-Empire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54DD18D01C592B37007569EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Island EmpireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-superb.Island-EmpireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Island Empire.app/Island Empire";
+			};
+			name = Debug;
+		};
+		54DD18D11C592B37007569EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Island EmpireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-superb.Island-EmpireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Island Empire.app/Island Empire";
+			};
+			name = Release;
+		};
+		54DD18D31C592B37007569EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Island EmpireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-superb.Island-EmpireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Island Empire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		54DD18D41C592B37007569EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Island EmpireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-superb.Island-EmpireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Island Empire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54DD189B1C592B37007569EC /* Build configuration list for PBXProject "Island Empire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DD18CA1C592B37007569EC /* Debug */,
+				54DD18CB1C592B37007569EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54DD18CC1C592B37007569EC /* Build configuration list for PBXNativeTarget "Island Empire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DD18CD1C592B37007569EC /* Debug */,
+				54DD18CE1C592B37007569EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54DD18CF1C592B37007569EC /* Build configuration list for PBXNativeTarget "Island EmpireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DD18D01C592B37007569EC /* Debug */,
+				54DD18D11C592B37007569EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54DD18D21C592B37007569EC /* Build configuration list for PBXNativeTarget "Island EmpireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DD18D31C592B37007569EC /* Debug */,
+				54DD18D41C592B37007569EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54DD18981C592B37007569EC /* Project object */;
+}
