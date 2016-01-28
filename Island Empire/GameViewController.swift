@@ -13,12 +13,13 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         if let scene = GameScene(fileNamed:"GameScene") {
             // Configure the view.
             let skView = self.view as! SKView
             skView.showsFPS = true
             skView.showsNodeCount = true
+            
+            skView.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: "gesture:"));
             
             /* Sprite Kit applies additional optimizations to improve rendering performance */
             skView.ignoresSiblingOrder = true
@@ -28,13 +29,20 @@ class GameViewController: UIViewController {
             
             skView.presentScene(scene)
         }
-        print("first change!")
+    }
+    
+    func gesture(sender : UIPinchGestureRecognizer) {
+        for node in (self.view as! SKView).scene!.children {
+            if let ship = node as? SKSpriteNode {
+                ship.removeFromParent()
+            }
+        }
     }
 
     override func shouldAutorotate() -> Bool {
         return true
     }
-
+    
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
         if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
             return .AllButUpsideDown
