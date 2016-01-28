@@ -16,6 +16,7 @@
 		54DD18B21C592B37007569EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18B01C592B37007569EC /* LaunchScreen.storyboard */; };
 		54DD18BD1C592B37007569EC /* Island_EmpireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18BC1C592B37007569EC /* Island_EmpireTests.swift */; };
 		54DD18C81C592B37007569EC /* Island_EmpireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18C71C592B37007569EC /* Island_EmpireUITests.swift */; };
+		54DD18D61C5A40CF007569EC /* Useful classes && extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18D51C5A40CF007569EC /* Useful classes && extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		54DD18C31C592B37007569EC /* Island EmpireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island EmpireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DD18C71C592B37007569EC /* Island_EmpireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_EmpireUITests.swift; sourceTree = "<group>"; };
 		54DD18C91C592B37007569EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DD18D51C5A40CF007569EC /* Useful classes && extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Useful classes && extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				54DD18A31C592B37007569EC /* AppDelegate.swift */,
 				54DD18A51C592B37007569EC /* GameScene.sks */,
 				54DD18A71C592B37007569EC /* GameScene.swift */,
+				54DD18D51C5A40CF007569EC /* Useful classes && extensions.swift */,
 				54DD18A91C592B37007569EC /* GameViewController.swift */,
 				54DD18AB1C592B37007569EC /* Main.storyboard */,
 				54DD18AE1C592B37007569EC /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 				54DD18A81C592B37007569EC /* GameScene.swift in Sources */,
 				54DD18AA1C592B37007569EC /* GameViewController.swift in Sources */,
 				54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */,
+				54DD18D61C5A40CF007569EC /* Useful classes && extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

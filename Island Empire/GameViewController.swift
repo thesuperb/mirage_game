@@ -32,9 +32,12 @@ class GameViewController: UIViewController {
     }
     
     func gesture(sender : UIPinchGestureRecognizer) {
-        for node in (self.view as! SKView).scene!.children {
-            if let ship = node as? SKSpriteNode {
-                ship.removeFromParent()
+        /* Правильное безопасное раскрытие optional-ов */
+        if let scene = (self.view as? SKView)?.scene {
+            for node in scene.children {
+                if let sprite = node as? SKSpriteNode {
+                    sprite.removeFromParent()
+                }
             }
         }
     }
