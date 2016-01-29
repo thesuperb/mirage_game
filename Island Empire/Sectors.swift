@@ -9,7 +9,7 @@
 import Foundation
 import SpriteKit
 
-//class Sector : SKSN {
-//    
-//    
-//} TO DO : написать этот класс
+//class Sector {
+//    var owner : Island
+//    var level : Int
+//}
