@@ -9,7 +9,11 @@
 import Foundation
 import SpriteKit
 
-//class Sector {
-//    var owner : Island
-//    var level : Int
-//}
+class Sector {
+    var owner : Island
+    var level : Int = 0
+    
+    required init (_owner : Island) {
+        owner = _owner
+    }
+}
