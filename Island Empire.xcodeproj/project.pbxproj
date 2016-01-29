@@ -20,6 +20,8 @@
 		54DD18BD1C592B37007569EC /* Island_EmpireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18BC1C592B37007569EC /* Island_EmpireTests.swift */; };
 		54DD18C81C592B37007569EC /* Island_EmpireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18C71C592B37007569EC /* Island_EmpireUITests.swift */; };
 		54DD18D61C5A40CF007569EC /* Useful classes && extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18D51C5A40CF007569EC /* Useful classes && extensions.swift */; };
+		9979700D1C5B886B0096D8A8 /* SmallClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9979700C1C5B886B0096D8A8 /* SmallClasses.swift */; };
+		9979700F1C5B95800096D8A8 /* Sectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9979700E1C5B95800096D8A8 /* Sectors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		54DD18C71C592B37007569EC /* Island_EmpireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island_EmpireUITests.swift; sourceTree = "<group>"; };
 		54DD18C91C592B37007569EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54DD18D51C5A40CF007569EC /* Useful classes && extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Useful classes && extensions.swift"; sourceTree = "<group>"; };
+		9979700C1C5B886B0096D8A8 /* SmallClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallClasses.swift; sourceTree = "<group>"; };
+		9979700E1C5B95800096D8A8 /* Sectors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sectors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,9 @@
 		54A1E4031C5B7A06005CAB6A /* Game classes */ = {
 			isa = PBXGroup;
 			children = (
-				54A1E4041C5B7A1E005CAB6A /* MainIslandClass.swift */,
+				9979700C1C5B886B0096D8A8 /* SmallClasses.swift */,
+				54A1E4041C5B7A1E005CAB6A /* Islands.swift */,
+				9979700E1C5B95800096D8A8 /* Sectors.swift */,
 			);
 			name = "Game classes";
 			sourceTree = "<group>";
@@ -296,7 +302,7 @@
 			files = (
 				54A1E40A1C5B7F39005CAB6A /* Button.swift in Sources */,
 				54DD18A81C592B37007569EC /* GameScene.swift in Sources */,
-				54A1E4051C5B7A1E005CAB6A /* MainIslandClass.swift in Sources */,
+				54A1E4051C5B7A1E005CAB6A /* Islands.swift in Sources */,
 				54DD18AA1C592B37007569EC /* GameViewController.swift in Sources */,
 				54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */,
 				54DD18D61C5A40CF007569EC /* Useful classes && extensions.swift in Sources */,
