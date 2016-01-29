@@ -23,10 +23,9 @@ class GameScene: SKScene {
         
         self.addChild(mainNode)
         
-        // Вот это не работает
         let label = SKLabelNode(text: "Finally")
         label.fontSize = 40
-        label.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMidY(self.frame))
+        label.position = CGPointZero
         label.fontName = "Helvetica"
         mainNode.addChild(label)
         
@@ -40,8 +39,8 @@ class GameScene: SKScene {
             
             let sprite = SKSpriteNode(imageNamed:"Spaceship")
             
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
+            sprite.xScale = 0.25
+            sprite.yScale = 0.25
             sprite.position = location
             
             let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
