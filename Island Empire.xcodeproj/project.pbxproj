@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A1E4051C5B7A1E005CAB6A /* MainIslandClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E4041C5B7A1E005CAB6A /* MainIslandClass.swift */; };
 		54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A31C592B37007569EC /* AppDelegate.swift */; };
 		54DD18A61C592B37007569EC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18A51C592B37007569EC /* GameScene.sks */; };
 		54DD18A81C592B37007569EC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A71C592B37007569EC /* GameScene.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54A1E4041C5B7A1E005CAB6A /* MainIslandClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainIslandClass.swift; sourceTree = "<group>"; };
 		54DD18A01C592B37007569EC /* Island Empire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Empire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DD18A31C592B37007569EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54DD18A51C592B37007569EC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54A1E4031C5B7A06005CAB6A /* Game classes */ = {
+			isa = PBXGroup;
+			children = (
+				54A1E4041C5B7A1E005CAB6A /* MainIslandClass.swift */,
+			);
+			name = "Game classes";
+			sourceTree = "<group>";
+		};
 		54DD18971C592B37007569EC = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		54DD18A21C592B37007569EC /* Island Empire */ = {
 			isa = PBXGroup;
 			children = (
+				54A1E4031C5B7A06005CAB6A /* Game classes */,
 				54DD18A31C592B37007569EC /* AppDelegate.swift */,
 				54DD18A51C592B37007569EC /* GameScene.sks */,
 				54DD18A71C592B37007569EC /* GameScene.swift */,
@@ -270,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54DD18A81C592B37007569EC /* GameScene.swift in Sources */,
+				54A1E4051C5B7A1E005CAB6A /* MainIslandClass.swift in Sources */,
 				54DD18AA1C592B37007569EC /* GameViewController.swift in Sources */,
 				54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */,
 				54DD18D61C5A40CF007569EC /* Useful classes && extensions.swift in Sources */,
@@ -505,6 +517,7 @@
 				54DD18CE1C592B37007569EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54DD18CF1C592B37007569EC /* Build configuration list for PBXNativeTarget "Island EmpireTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				54DD18D11C592B37007569EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54DD18D21C592B37007569EC /* Build configuration list for PBXNativeTarget "Island EmpireUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				54DD18D41C592B37007569EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
