@@ -13,34 +13,47 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let scene = GameScene(fileNamed:"GameScene") {
-            // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
-            let recognizer = UIPinchGestureRecognizer(target: self, action: "gesture:")
-            recognizer.delaysTouchesBegan = true
-            skView.addGestureRecognizer(recognizer);
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
-            
-            scene.backgroundColor = UIColor.grayColor()
-            scene.size = skView.frame.size
-            
-            skView.presentScene(scene)
-        }
+        
+        let skView = self.view as! SKView
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        
+        let scene = NewGameScene(size: skView.frame.size)
+        
+        /* Распознавание пинча */
+        let recognizer = UIPinchGestureRecognizer(target: self, action: "pinchGesture:")
+        recognizer.delaysTouchesBegan = true
+        skView.addGestureRecognizer(recognizer);
+        
+        /* Распознавание свайпа от левого края экрана */
+        let screenEdgeRecognizer = UIScreenEdgePanGestureRecognizer(target: self, action: "screenSwipeGesture:")
+        screenEdgeRecognizer.delaysTouchesBegan = true
+        screenEdgeRecognizer.edges = .Left
+        skView.addGestureRecognizer(screenEdgeRecognizer)
+
+        skView.ignoresSiblingOrder = true
+        
+        scene.scaleMode = .AspectFill
+        
+        scene.backgroundColor = UIColor.grayColor()
+        
+        skView.presentScene(scene)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "pauseScene:", name: "MovingToBackground", object: nil)
     }
     
-    func gesture(sender : UIPinchGestureRecognizer) {
+    func screenSwipeGesture(sender : UIScreenEdgePanGestureRecognizer) {
+        if let _ = (self.view as? SKView)?.scene as? GameScene {
+            let transition = SKTransition.fadeWithColor(UIColor.greenColor(), duration: 0.5)
+            let skView = self.view as! SKView
+            let nextScene = NewGameScene(size: skView.frame.size)
+            skView.presentScene(nextScene, transition: transition)
+        }
+    }
+    
+    func pinchGesture(sender : UIPinchGestureRecognizer) {
         /* Правильное безопасное раскрытие optional-ов */
-        if let scene = (self.view as? SKView)?.scene {
+        if let scene = (self.view as? SKView)?.scene as? GameScene {
             for node in scene.children {
                 if let sprite = node as? SKSpriteNode where sprite.name == "MainNode" {
                     for child in sprite.children {

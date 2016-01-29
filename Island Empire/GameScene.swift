@@ -10,6 +10,14 @@ import SpriteKit
 
 class GameScene: SKScene {
     
+    override init(size: CGSize) {
+        super.init(size: size)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     /* Основная текстура, добавлять все объекты на неё */
     var mainNode = SKSpriteNode()
     
