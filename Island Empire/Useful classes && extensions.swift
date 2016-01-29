@@ -17,10 +17,11 @@ typealias CGP = CGPoint
 typealias CGS = CGSize
 typealias CGSz = CGSize
 typealias CGRt = CGRect
-typealias Col = UIColor
+typealias UIC = UIColor
 typealias NSUD = NSUserDefaults
 typealias SKLN = SKLabelNode
 typealias UIB = UIButton
+typealias UII = UIImage
 
 extension Character {
     var keyCode: Int {
