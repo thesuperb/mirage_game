@@ -19,7 +19,9 @@ class GameViewController: UIViewController {
             skView.showsFPS = true
             skView.showsNodeCount = true
             
-            skView.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: "gesture:"));
+            let recognizer = UIPinchGestureRecognizer(target: self, action: "gesture:")
+            recognizer.delaysTouchesBegan = true
+            skView.addGestureRecognizer(recognizer);
             
             /* Sprite Kit applies additional optimizations to improve rendering performance */
             skView.ignoresSiblingOrder = true
@@ -27,18 +29,33 @@ class GameViewController: UIViewController {
             /* Set the scale mode to scale to fit the window */
             scene.scaleMode = .AspectFill
             
+            scene.backgroundColor = UIColor.grayColor()
+            
             skView.presentScene(scene)
         }
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "pauseScene:", name: "MovingToBackground", object: nil)
     }
     
     func gesture(sender : UIPinchGestureRecognizer) {
         /* Правильное безопасное раскрытие optional-ов */
         if let scene = (self.view as? SKView)?.scene {
             for node in scene.children {
-                if let sprite = node as? SKSpriteNode {
-                    sprite.removeFromParent()
+                if let sprite = node as? SKSpriteNode where sprite.name == "MainNode" {
+                    for child in sprite.children {
+                        if let object = child as? SKSpriteNode {
+                            object.removeFromParent()
+                        }
+                    }
                 }
             }
+        }
+    }
+    
+    /* Функция паузы */
+    func pauseScene(sender : AnyObject? = nil) {
+        if let scene = (self.view as? SKView)?.scene as? GameScene {
+            scene.mainNode.paused = true
         }
     }
 
