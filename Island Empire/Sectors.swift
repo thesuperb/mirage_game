@@ -16,4 +16,38 @@ class Sector {
     required init (_owner : Island) {
         owner = _owner
     }
+    
+    func levelUp() {
+        level++
+    }
+}
+
+class MilitarySector: Sector {
+    required init(_owner: Island) {
+        super.init(_owner: _owner)
+    }
+}
+
+class ScientificSector: Sector {
+    required init(_owner: Island) {
+        super.init(_owner: _owner)
+    }
+}
+
+class SocialSector: Sector {
+    required init(_owner: Island) {
+        super.init(_owner: _owner)
+    }
+}
+
+class DimplomaticSector: Sector {
+    required init(_owner: Island) {
+        super.init(_owner: _owner)
+    }
+}
+
+class FoodStuffSector: Sector {
+    required init(_owner: Island) {
+        super.init(_owner: _owner)
+    }
 }
