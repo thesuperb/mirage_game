@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54A1E4051C5B7A1E005CAB6A /* MainIslandClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E4041C5B7A1E005CAB6A /* MainIslandClass.swift */; };
-		54A1E4081C5B7DC6005CAB6A /* NewGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E4071C5B7DC6005CAB6A /* NewGameScene.swift */; };
-		54A1E40A1C5B7F39005CAB6A /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E4091C5B7F39005CAB6A /* Button.swift */; };
+		54A1E4051C5B7A1E005CAB6A /* Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E4041C5B7A1E005CAB6A /* Islands.swift */; };
+		54A1E40C1C5B998E005CAB6A /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E40B1C5B998E005CAB6A /* Button.swift */; };
+		54A1E40E1C5B9991005CAB6A /* NewGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1E40D1C5B9991005CAB6A /* NewGameScene.swift */; };
 		54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A31C592B37007569EC /* AppDelegate.swift */; };
-		54DD18A61C592B37007569EC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18A51C592B37007569EC /* GameScene.sks */; };
 		54DD18A81C592B37007569EC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A71C592B37007569EC /* GameScene.swift */; };
 		54DD18AA1C592B37007569EC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD18A91C592B37007569EC /* GameViewController.swift */; };
 		54DD18AD1C592B37007569EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DD18AB1C592B37007569EC /* Main.storyboard */; };
@@ -42,12 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54A1E4041C5B7A1E005CAB6A /* MainIslandClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainIslandClass.swift; sourceTree = "<group>"; };
-		54A1E4071C5B7DC6005CAB6A /* NewGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameScene.swift; sourceTree = "<group>"; };
-		54A1E4091C5B7F39005CAB6A /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		54A1E4041C5B7A1E005CAB6A /* Islands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Islands.swift; sourceTree = "<group>"; };
+		54A1E40B1C5B998E005CAB6A /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		54A1E40D1C5B9991005CAB6A /* NewGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameScene.swift; sourceTree = "<group>"; };
 		54DD18A01C592B37007569EC /* Island Empire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Empire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DD18A31C592B37007569EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54DD18A51C592B37007569EC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		54DD18A71C592B37007569EC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		54DD18A91C592B37007569EC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		54DD18AC1C592B37007569EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,12 +98,11 @@
 			name = "Game classes";
 			sourceTree = "<group>";
 		};
-		54A1E4061C5B7D65005CAB6A /* Scenes */ = {
+		54A1E40F1C5B99A5005CAB6A /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				54DD18A51C592B37007569EC /* GameScene.sks */,
+				54A1E40D1C5B9991005CAB6A /* NewGameScene.swift */,
 				54DD18A71C592B37007569EC /* GameScene.swift */,
-				54A1E4071C5B7DC6005CAB6A /* NewGameScene.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -133,11 +130,11 @@
 		54DD18A21C592B37007569EC /* Island Empire */ = {
 			isa = PBXGroup;
 			children = (
-				54A1E4061C5B7D65005CAB6A /* Scenes */,
+				54DD18D51C5A40CF007569EC /* Useful classes && extensions.swift */,
+				54A1E40B1C5B998E005CAB6A /* Button.swift */,
+				54A1E40F1C5B99A5005CAB6A /* Scenes */,
 				54A1E4031C5B7A06005CAB6A /* Game classes */,
 				54DD18A31C592B37007569EC /* AppDelegate.swift */,
-				54DD18D51C5A40CF007569EC /* Useful classes && extensions.swift */,
-				54A1E4091C5B7F39005CAB6A /* Button.swift */,
 				54DD18A91C592B37007569EC /* GameViewController.swift */,
 				54DD18AB1C592B37007569EC /* Main.storyboard */,
 				54DD18AE1C592B37007569EC /* Assets.xcassets */,
@@ -272,7 +269,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54DD18A61C592B37007569EC /* GameScene.sks in Resources */,
 				54DD18B21C592B37007569EC /* LaunchScreen.storyboard in Resources */,
 				54DD18AF1C592B37007569EC /* Assets.xcassets in Resources */,
 				54DD18AD1C592B37007569EC /* Main.storyboard in Resources */,
@@ -300,13 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A1E40A1C5B7F39005CAB6A /* Button.swift in Sources */,
+				9979700F1C5B95800096D8A8 /* Sectors.swift in Sources */,
+				9979700D1C5B886B0096D8A8 /* SmallClasses.swift in Sources */,
 				54DD18A81C592B37007569EC /* GameScene.swift in Sources */,
+				54A1E40C1C5B998E005CAB6A /* Button.swift in Sources */,
 				54A1E4051C5B7A1E005CAB6A /* Islands.swift in Sources */,
 				54DD18AA1C592B37007569EC /* GameViewController.swift in Sources */,
 				54DD18A41C592B37007569EC /* AppDelegate.swift in Sources */,
 				54DD18D61C5A40CF007569EC /* Useful classes && extensions.swift in Sources */,
-				54A1E4081C5B7DC6005CAB6A /* NewGameScene.swift in Sources */,
+				54A1E40E1C5B9991005CAB6A /* NewGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
