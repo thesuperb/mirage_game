@@ -2,7 +2,7 @@
 //  Island_EmpireUITests.swift
 //  Island EmpireUITests
 //
-//  Created by Roman Nikitin on 27.01.16.
+//  Created by theSuperb on 27.01.16.
 //  Copyright © 2016 theSuperb. All rights reserved.
 //
 

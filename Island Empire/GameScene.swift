@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  Island Empire
 //
-//  Created by Roman Nikitin on 27.01.16.
+//  Created by theSuperb on 27.01.16.
 //  Copyright (c) 2016 theSuperb. All rights reserved.
 //
 
