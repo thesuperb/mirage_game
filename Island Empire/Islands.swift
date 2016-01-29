@@ -39,7 +39,7 @@ class Island: SKSN {
     }
     
     
-}
+} // базовый класс острова
 
 
 class SectorIsland : Island {
