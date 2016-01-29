@@ -2,7 +2,7 @@
 //  Useful classes && extensions.swift
 //  Island Empire
 //
-//  Created by Roman Nikitin on 28.01.16.
+//  Created by theSuperb on 28.01.16.
 //  Copyright © 2016 theSuperb. All rights reserved.
 //
 
