@@ -22,6 +22,7 @@ typealias NSUD = NSUserDefaults
 typealias SKLN = SKLabelNode
 typealias UIB = UIButton
 typealias UII = UIImage
+typealias SKT = SKTexture
 
 extension Character {
     var keyCode: Int {

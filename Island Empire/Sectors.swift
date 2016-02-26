@@ -51,3 +51,9 @@ class FoodStuffSector: Sector {
         super.init(_owner: _owner)
     }
 }
+
+class IndustrialSector: Sector {
+    required init(_owner: Island) {
+        super.init(_owner: _owner)
+    }
+}

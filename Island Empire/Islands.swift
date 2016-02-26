@@ -30,7 +30,7 @@ class Island: SKSN {
         self.isHome = 0
         self.level = 1
         
-        let texture = SKTexture(image: image)
+        let texture = SKT(image: image)
         super.init(texture: texture, color: UIC.clearColor(), size: image.size)
     }
     
@@ -48,6 +48,7 @@ class SectorIsland : Island {
         super.init(or : or, image : image, sectors : 0)
     }
 
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
